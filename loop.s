@@ -16,7 +16,7 @@
 
 //ADDS Number from a list
 .global start
-.equ  num , #0x81818181     //Constant
+//.equ  num , #0x81818181     //Constant
 start:
     LDR R0,=list
     MOV R1,#0
